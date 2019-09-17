@@ -6,25 +6,27 @@
 <body>
 	<h2>Register</h2>
 	<form>
-		<label>First Name</label>
-		<input type="text" placeholder="John">
-		<label>Last Name</label>
-		<input type="text" placeholder="Smith">
+		<label for="First Name">First Name</label>
+		<input id="First Name" type="text" name="First" placeholder="John" required>
+		<label for="Last Name">Last Name</label>
+		<input id="Last Name" type="text" name="Last" placeholder="Smith" required>
 		<br>
-		<label>Male</label>
-		<input type="radio" name="Sex">
-		<label>Others</label>
-		<input type="radio" name="Sex">
-		<label>Male</label>
-		<input type="radio" name="Sex">
+		<label for="Male">Male</label>
+		<input id="Male" name="Gender" type="radio" name="Sex" value="Male">
+		<label for="Femalle">Femalle</label>
+		<input id="Femalle" name="Gender" type="radio" name="Sex" value="Femalle">
+		<label for="Others">Others</label>
+		<input id="Others" name="Gender" type="radio" name="Sex" value="Others">
 		<br>
-		<label>Email</label>
-		<input type="text" placeholder="Your Email">
-		<label>Password</label>
-		<input type="Password" placeholder="your Password">
+		<label>Email:</label>
+		<input type="Email" placeholder="Your Email" required="">
+		<label>Password: </label>
+		<!--<input name="Password" type="Password"  pattern=".{5,10}",required title="5 to 10 characters">-->
+		<input type="password" name="password" id="password" pattern=".{5,10}" placeholder="your password" required title="5 to 10 characters">
 		<br>
 		<label>Birthday</label>
 		<select name="Month">
+			<option>Month</option>
 			<option>Jan</option>
 			<option>Feb</option>
 			<option>mar</option>
@@ -37,8 +39,9 @@
 			<option>Oct</option>
 			<option>Nov</option>
 			<option>Dec</option>
-		</select>
-		<select name="Month">
+		</select >
+		<select name="Day">
+			<option>Day</option>
 			<option>1</option>
 			<option>2</option>
 			<option>3</option>
@@ -187,7 +190,7 @@
       </select>
     </div>
 		<br>
-		I agree to the terms and conditions
+		<label>I agree to the terms and conditions</label>
 		<input type="checkbox" name="">
 		<br>
 		<input type="submit" value="submit">

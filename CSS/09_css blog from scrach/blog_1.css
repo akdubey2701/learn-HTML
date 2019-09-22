@@ -1,0 +1,39 @@
+body{
+	border:20px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-weight: 800;
+	font-family: "Source Sans Pro"
+		text-align: justify-all;
+
+}
+h1{
+	text-transform: capitalize;
+	font-weight: 800;
+}
+h3{
+	font-family: normal;
+	text-transform: uppercase;
+	padding: 2px;
+	color: #3498db;
+}
+/*body{
+	font-family: Heebo;
+	margin-color: black;
+	border: 0px solid #bdc3c7 ;
+	padding: 20px;
+}*/
+/*#para1{
+	border: :105px solid #bdc3c7;
+	padding: 20px;
+	max-width: 700px;
+	width: 80%;
+	margin: 20px auto;
+	font-weight: 800;
+}*/
+.quote{
+	border-left: :5px solid #bdc3c7;
+	padding-left: 5px;: 
+}
